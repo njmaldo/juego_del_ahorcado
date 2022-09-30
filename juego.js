@@ -101,7 +101,6 @@ const agragarLetraIncorrecta = (aLetra) => {
 //Gaurdar nueva palabra 
 const nuevaPalabra = () => {
     let nuevaPalabra = document.getElementById('n-palabra').value;
-    nuevaPalabra.placeholder.value = '';
     if(nuevaPalabra !== '') {
         palabras.push(nuevaPalabra.toUpperCase());
         alert('Palabra guardada...');
