@@ -13,7 +13,7 @@ body {
     line-height: 50px; 
     align-items: stretch;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, auto);
+    grid-template-rows: repeat(1, 1fr);
     grid-template-areas: 'header  header  header'
                          'content content content'
                          'footer  footer  footer'
@@ -141,7 +141,7 @@ body {
     width: 688px;
     height: 67px;
     margin-bottom: 40px;
-    left: 145px;
+    left: 100px;
     position: relative;
     gap: 24px;
 }
