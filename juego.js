@@ -11,7 +11,7 @@ let cancelar = document.getElementById('cancelar');
 let salir = document.getElementById('salir');
 
 let tablero  = document.getElementById('canvas').getContext('2d');
-let palabras = ['ALURA','ORACLE','ONE','JAVASCRIPT','HTML'];
+let palabras = ['ABANDONADO','ORIGINARIO','CONGELADOR','DIVERSIFICADO','ACERTIJO','MANUTENSION','ARQUIMEDES'];
 let palabraSecreta = '';
 let palabraCorrecta = '';
 let letras = [];

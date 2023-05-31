@@ -49,8 +49,8 @@ body {
     grid-template-rows: repeat(2, auto);
 }
 .canvas {
-    grid-column: 1/-1;
-    grid-row: 1/-1;
+    grid-column: 1/4;
+    grid-row: 1/1;
     width: 100%;
 } 
 

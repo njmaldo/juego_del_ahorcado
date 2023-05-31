@@ -4,7 +4,7 @@ const crearCanvas = () => {
     tablero.lineJoin = 'round';
     tablero.fillStyle = '#F3F5F6';
     tablero.strokeStyle = '#8A3871'
-    tablero.fillRect(0, 0, 1200, 860);
+    tablero.fillRect(0, 0, 1200, 800);
     tablero.beginPath();
     tablero.moveTo(500, 500);
     tablero.lineTo(900, 500);
